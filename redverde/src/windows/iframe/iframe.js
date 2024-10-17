@@ -1,4 +1,5 @@
 import {userState} from "react";
+import MenuCliente from "../cliente/menuCliente/menuCliente";
 
 const Iframe = () => {
 
@@ -6,7 +7,7 @@ const Iframe = () => {
     function getVentana(nombreVentana){
         switch(nombreVentana){
             case "menuCliente":
-                set
+                setVentana(<MenuCliente></MenuCliente>)
         }
     }
 
