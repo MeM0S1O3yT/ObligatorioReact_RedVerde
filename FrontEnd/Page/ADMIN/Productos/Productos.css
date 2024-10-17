@@ -1,0 +1,317 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(13, 22, 0);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+header{
+    height: 168px;
+    width: 100%;
+}
+
+.cabezeraSuperior {
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(161, 255, 37);
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+
+.cabezeraSuperior a{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Logo-Cabeza {
+    width: 40%;
+}
+
+/*---------------------------------------*/
+
+.cabezeraInferior {
+    display: flex;
+    background-color: rgb(186, 255, 96);
+    height: 60px;
+}
+
+.menuNavegación {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: rgb(186, 255, 96);
+    list-style: none;
+}
+
+.menuNavegación li {
+    margin: 0px;
+    padding: 5px;
+}
+
+.menuNavegación li a {
+    text-decoration: none;
+    color: black;
+    padding: 22.5px;
+    font-size: 15px;
+}
+
+.menuNavegación li a:hover {
+    background: rgb(72, 127, 0);
+    color: white;
+}
+
+.usuarioIcono img{
+    width: 35px;
+    height: 35px;
+    padding: 12.5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.usuarioIcono img:hover{
+    background: rgb(72, 127, 0);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+main{
+    background: url(../../../assets/Fondo/FondoPlantas-Oscuro.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*---------------------------------------*/
+
+.mainSuperior{
+    width: 30%;
+    padding: 30px;
+    margin: 50px;
+    margin-bottom: 0px;
+    background-color: rgb(224, 255, 122);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+form h2 {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 35px;
+}
+
+input {
+    width: 80%;
+    padding: 17px;
+    background-color: rgb(239, 255, 188);
+    border: 2px solid #000000;
+    margin-bottom: 30px;
+    outline: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.seleccionTipo{
+    width: 89%;
+    padding: 17px;
+    background-color: rgb(239, 255, 188);
+    border: 2px solid #000000;
+    margin-bottom: 30px;
+    outline: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+::placeholder {
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.btn {
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    background-color: transparent;
+    border: 2px solid #000000;
+    margin-bottom: 30px;
+    color: #000000;
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: impact;
+    font-size: 30px;
+    max-width: 80%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #000000;
+    color: #80ff00;
+}
+
+/*---------------------------------------*/
+
+.mainInferior{
+    width: 90%;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 50px;
+    margin-top: 0px;
+    background-color: rgb(175, 205, 77);
+}
+
+.filtro{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.seleccionFiltro{
+    margin-top: 0px;
+    margin: 5px;
+    background-color: rgb(239, 255, 188);
+    border: 2px solid #000000;
+    outline: none;
+    color: #000000;
+    font-size: 16px;
+}
+
+.tableProductos{
+
+}
+
+.tabla{
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead{
+
+}
+
+tr{
+    
+}
+
+th{
+    font-size: 25px;
+    background-color: rgb(73, 89, 20);
+    color: rgb(255, 255, 255);
+}
+
+tbody{
+}
+
+td{
+    background-color: rgb(239, 255, 185);
+}
+
+td img{
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.pie-pagina {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 355px;
+    background-color: rgb(20, 35, 0);
+}
+
+/*---------------------------------------*/
+
+.grupo-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 355px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(26, 41, 8);
+}
+
+/*----------------*/
+
+.logoPie {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 150px;
+    margin-top: 75px;
+    margin-right: 12.5%;
+}
+
+.logoPie img{
+    width: 100%;
+    height: 100%;
+}
+
+/*----------------*/
+
+.nombreGrupo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 200px;
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 12.5%;
+}
+
+.nombreGrupo p{
+    margin: 10px;
+}
+
+.nombreGrupo h2{
+    margin: 0px;
+}
+
+/*---------------------------------------*/
+
+.grupo-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(13, 22, 0);
+}
+
+.grupo-2 p{
+    padding: 20px;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
